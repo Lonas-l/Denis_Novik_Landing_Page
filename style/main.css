@@ -17,3 +17,96 @@
 		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+
+body {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+}
+
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    padding: 33px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+
+}
+
+a:hover {
+    color: #000000;
+}
+
+.active {
+    color: black;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #828282;
+}
+
+p {
+    line-height: 22px;
+}
+
+h1 {
+    font-size: 48px;
+    width: 125px;
+}
+
+h2 {
+    font-size: 34px;
+    line-height: 42px;
+}
+
+h1, h2, h3 {
+    font-family: 'Gilroy-Bold';
+}
+
+.Header_Foto_FZ {
+    width: 100%;
+}
+
+.header_information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.language {
+    transform: rotate(-90deg);
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+}
+
+.About_Me {
+    margin: 105px 0px 0px;
+    padding: 120px 0px 110px;
+    background-color: #F6F6F6;
+}
+
+.About_Me .container {
+    max-width: 485px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.About_Me h2 {
+    margin-bottom: 17px;
+}
+
+.About_Me p:nth-child(3) {
+    padding: 25px 0px;
+}
