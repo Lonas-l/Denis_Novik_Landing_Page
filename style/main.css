@@ -68,6 +68,12 @@ h1 {
 h2 {
     font-size: 34px;
     line-height: 42px;
+    text-align: center;
+}
+
+h3 {
+    color: #828282;
+    text-align: center;
 }
 
 h1, h2, h3 {
@@ -109,4 +115,106 @@ h1, h2, h3 {
 
 .About_Me p:nth-child(3) {
     padding: 25px 0px;
+}
+
+.rating-result {
+	margin: 0 auto;
+    text-align: center;
+    user-select: none;
+    margin-top: auto;
+}
+
+.rating-result span {
+	font-size: 26px;
+	line-height: 1;
+	color: #e5e5e5;
+}
+
+.rating-result > span.star_active {
+	color: #070707;
+}
+
+.Skills p {
+    text-align: center;
+    margin-bottom: 87px;
+}
+
+.working_program {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 165px;
+    margin-bottom: 110px;
+}
+
+.skills_block img {
+    width: 89px;
+}
+
+.Skills {
+    margin-top: 90px;
+}
+
+.working_program h3 {
+    margin: 23px 0px 41px;
+}
+
+.Portfolio {
+    padding: 110px 0px 100px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.Portfolio_block {
+    margin-top: 100px;
+}
+
+
+.Portfolio_Work_Link {
+    display: block;
+    margin-top: 45px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #000;
+    border-radius: 28px;
+    color: #fff;
+    padding: 12px 30px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+
+footer {
+    padding-top: 110px;
+    margin-bottom: 200px;
+    background: gray;
+}
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#button_title {
+    margin: 20px 0px 42px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
 }
