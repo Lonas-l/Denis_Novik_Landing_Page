@@ -30,7 +30,9 @@ body {
 }
 
 .container {
-    width: 945px;
+    max-width: 945px;
+    min-width: 300px;
+    padding: 0 30px;
     margin: 0 auto;
 }
 
@@ -183,7 +185,7 @@ h1, h2, h3 {
 }
 
 .Portfolio_block img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .Portfolio_Work_Link {
@@ -229,12 +231,12 @@ footer .container {
     display: flex;
     width: 350px;
     justify-content: space-between;
-    margin: 91px 0px 0px;
+    margin: 91px -60px 0px;
 }
 
 .icon-bar img {
-   user-select: none;
-   pointer-events: none;
+    user-select: none;
+    pointer-events: none;
 }
 
 .title_links {
