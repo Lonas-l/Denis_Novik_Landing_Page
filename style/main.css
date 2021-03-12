@@ -31,7 +31,6 @@ body {
 
 .container {
     max-width: 945px;
-    min-width: 300px;
     padding: 0 30px;
     margin: 0 auto;
 }
@@ -229,9 +228,10 @@ footer .container {
 
 .icons {
     display: flex;
-    width: 350px;
+    width: 100%;
+    min-width: 235px;
     justify-content: space-between;
-    margin: 91px -60px 0px;
+    margin: 91px 0px 0px;
 }
 
 .icon-bar img {
@@ -244,4 +244,10 @@ footer .container {
     font-size: 14px;
     color: #828282;
     user-select: none;
+}
+
+@media (min-width: 300px) and (max-width: 720px) {
+    .working_program {
+        justify-content: center;
+    }
 }
